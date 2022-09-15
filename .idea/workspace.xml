@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="Fixed 2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="ADDED" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +39,7 @@
       <updated>1663141384917</updated>
       <workItem from="1663141386276" duration="12000" />
       <workItem from="1663141432370" duration="8502000" />
-      <workItem from="1663225142518" duration="11069000" />
+      <workItem from="1663225142518" duration="11544000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1663141582026</created>
@@ -332,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663236340393</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ADDED">
+      <created>1663236836081</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663236836081</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +354,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed args 2.0" />
     <MESSAGE value="Fixed args 3.0" />
     <MESSAGE value="Fixed args 4.0" />
     <MESSAGE value="Fixed args 5.0" />
@@ -376,6 +378,7 @@
     <MESSAGE value="Added new check again 3.0" />
     <MESSAGE value="Fixed" />
     <MESSAGE value="Fixed 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed 2.0" />
+    <MESSAGE value="ADDED" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED" />
   </component>
 </project>
