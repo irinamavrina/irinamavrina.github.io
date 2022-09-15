@@ -1,0 +1,33 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+  <nav class="site-navigation" id="top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation </span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Your site title as branding in the menu -->
+        <a class="navbar-brand active" href="http://verapdf.org/" title="veraPDF" rel="home"><div id="menu-logo">&nbsp;</div></a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://github.com/veraPDF/"><i class="fa fa-github"></i> GitHub</a></li>
+        </ul>
+        <!-- The WordPress Menu goes here -->
+        <ul id="main-menu" class="nav navbar-nav navbar-right">
+          {% for item in include.nav %}
+              {% if item.href == navurl %}
+              <li class="active">
+              {% else %}
+              <li>
+              {% endif %}
+              <a href="{{ site.url }}{{ item.href }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div><!-- #navbar -->
+    </div><!-- .container -->
+  </nav><!-- .site-navigation -->
