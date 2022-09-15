@@ -26,7 +26,7 @@ jobs:
           target_branch: 'gh-pages'
 
       - name: C
-        run: ls la
+        run: ls -la
 
       - name: Check HTML
         #uses: chabad360/htmlproofer@master
