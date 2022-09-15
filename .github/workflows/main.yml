@@ -38,12 +38,12 @@ jobs:
       - name: C
         run: ls -la
 
-       - name: Cache HTMLProofer
-         id: cache-htmlproofer
-         uses: actions/cache@v2
-         with:
-           path: tmp/.htmlproofer
-           key: ${{ runner.os }}-htmlproofer
+      - name: Cache HTMLProofer
+        id: cache-htmlproofer
+        uses: actions/cache@v2
+        with:
+          path: tmp/.htmlproofer
+          key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
         uses: anishathalye/proof-html@v1
