@@ -33,4 +33,5 @@ jobs:
         uses: athackst/htmlproofer-action@main
         with:
           directory: "./"
+          args: --check-html --check_favicon
 #          arguments: --only-4xx --checks Scripts, Favicon, Links, Images
