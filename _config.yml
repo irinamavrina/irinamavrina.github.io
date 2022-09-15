@@ -1,6 +1,1 @@
-gems:
-  - jekyll-redirect-from
-# Google services
-vera_google_analytics: UA-64476051-2
-preforma_google_analytics: UA-25697327-3
-verapdf_version_number: 1.8.1
+title: "Jekyll Actions Demo"
