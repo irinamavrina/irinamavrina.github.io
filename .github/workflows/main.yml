@@ -25,8 +25,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           target_branch: 'gh-pages'
 
-      - name: Check HTML
+      - name: C
         run: ls la
+
+      - name: Check HTML
         #uses: chabad360/htmlproofer@master
         uses: athackst/htmlproofer-action@main
 #        with:
