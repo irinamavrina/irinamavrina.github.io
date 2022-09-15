@@ -40,10 +40,11 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        uses: anishathalye/proof-html@v1
-        with:
-          directory: "./_site"
-          check_favicon: true
-          check_html: true
-          check_opengraph: false
-          only_4xx: true
+        run: bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+#        uses: anishathalye/proof-html@v1
+#        with:
+#          directory: "./_site"
+#          check_favicon: true
+#          check_html: true
+#          check_opengraph: false
+#          only_4xx: true
