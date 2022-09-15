@@ -29,4 +29,4 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./"
-          arguments: --only-4xx --checks "Images", "Favicon", "Links", "Scripts"
+          arguments: --only-4xx --checks "Favicon"
