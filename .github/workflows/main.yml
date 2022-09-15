@@ -40,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --only-4xx --checks "Favicon", "Links", "Images", "Scripts"
+        run: bundle exec htmlproofer ./_site --only-4xx --checks "Favicon" "Links" "Images" "Scripts"
 #        uses: anishathalye/proof-html@v1
 #        with:
 #          directory: "./_site"
