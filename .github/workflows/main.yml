@@ -24,16 +24,17 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-#      - name: Build and deploy
-#        uses: helaili/jekyll-action@v2
-#        with:
-#          token: ${{ secrets.GITHUB_TOKEN }}
-#          target_branch: 'gh-pages'
-#          target_path: '_site'
-      - run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
-      - run: bundle exec jekyll build
+      - name: Build and deploy
+        uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
+         # target_path: '_site'
+
+#      - run: |
+#          bundle config path vendor/bundle
+#          bundle install --jobs 4 --retry 3
+#      - run: bundle exec jekyll build
 
       - name: C
         run: ls -la
@@ -48,7 +49,7 @@ jobs:
       - name: Check HTML
         uses: anishathalye/proof-html@v1
         with:
-          directory: "./_site"
+          directory: "./"
           check_favicon: true
           check_html: true
           check_opengraph: false
