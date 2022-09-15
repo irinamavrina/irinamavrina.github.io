@@ -35,5 +35,6 @@ jobs:
           directory: "./"
           check_favicon: true
           check_html: true
+          check_opengraph: false
 #          args: --check-html --check_favicon
 #          arguments: --only-4xx --checks Scripts, Favicon, Links, Images
