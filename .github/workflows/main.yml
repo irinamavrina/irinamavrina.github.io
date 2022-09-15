@@ -12,8 +12,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - name: Ruby setup
-        uses: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7.x
 
@@ -31,11 +30,9 @@ jobs:
 #          token: ${{ secrets.GITHUB_TOKEN }}
 #          target_branch: 'gh-pages'
 #         # target_path: '_site'
-
       - run: |
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-
       - run: bundle exec jekyll build
 
       - name: C
