@@ -39,8 +39,15 @@ jobs:
           path: tmp/.htmlproofer
           key: ${{ runner.os }}-htmlproofer
 
+#      - name: Check HTML
+#        run: bundle exec htmlproofer ./_site --only-4xx --checks "Favicon" "Links" "Images" "Scripts"
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --only-4xx --checks "Favicon" "Links" "Images" "Scripts"
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./_site"
+          arguments: --only-4xx, --checks "Favicon" "Links" "Images" "Scripts"
+
+
 #        uses: anishathalye/proof-html@v1
 #        with:
 #          directory: "./_site"
