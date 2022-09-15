@@ -26,7 +26,9 @@ jobs:
           target_branch: 'gh-pages'
 
       - name: Check HTML
-        uses: chabad360/htmlproofer@master
-        with:
-          directory: "./"
-          arguments: --only-4xx --checks Scripts, Favicon, Links, Images
+        run: ls la
+        #uses: chabad360/htmlproofer@master
+        uses: athackst/htmlproofer-action@main
+#        with:
+#          #directory: "./"
+#          arguments: --only-4xx --checks Scripts, Favicon, Links, Images
