@@ -40,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --checks_to_ignore "OpenGraph" --only-4xx
+        run: bundle exec htmlproofer ./_site --checks "Favicon, Links, Images, Scripts" --only-4xx
 
 #      - name: Check HTML
 #        uses: chabad360/htmlproofer@master
