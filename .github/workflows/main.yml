@@ -12,7 +12,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
 
-      - uses: actions/setup-ruby@v1
+      - name: Ruby setup
+        uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.7.x
 
@@ -24,13 +25,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - run: |
+      - name: Bundle setup
+        run: |
           bundle config path vendor/bundle
           bundle install --jobs 4 --retry 3
-      - run: bundle exec jekyll build
 
-      - name: C
-        run: ls -la
+      - name: Build and deploy
+        run: bundle exec jekyll build
 
       - name: Cache HTMLProofer
         id: cache-htmlproofer
@@ -40,18 +41,4 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --check-html --check-favicon --only-4xx
-
-#      - name: Check HTML
-#        uses: chabad360/htmlproofer@master
-#        with:
-#          directory: "./_site"
-#          arguments: --only-4xx --checks Favicon, Links, Images, Scripts
-
-
-#        uses: anishathalye/proof-html@v1 --checks "Favicon,Links,Images,Scripts"
-#        with:
-#          directory: "./_site"
-#          check_favicon: true
-#          check_html: true
-#          check_opengraph: false
+        run: bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
