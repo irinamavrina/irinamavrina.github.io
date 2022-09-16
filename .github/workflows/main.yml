@@ -40,7 +40,7 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --check-html --check-favicon --only-4xx
+        run: bundle exec htmlproofer ./_site --check-html --only-4xx
 
 #      - name: Check HTML
 #        uses: chabad360/htmlproofer@master
