@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="ADDED" />
+    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="fix 24.0">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +31,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../veraPDF.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -39,196 +44,9 @@
       <updated>1663141384917</updated>
       <workItem from="1663141386276" duration="12000" />
       <workItem from="1663141432370" duration="8502000" />
-      <workItem from="1663225142518" duration="11544000" />
-    </task>
-    <task id="LOCAL-00001" summary="First commit">
-      <created>1663141582026</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663141582026</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added files">
-      <created>1663147427505</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1663147427505</updated>
-    </task>
-    <task id="LOCAL-00003" summary="fix">
-      <created>1663150338114</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1663150338114</updated>
-    </task>
-    <task id="LOCAL-00004" summary="fix token">
-      <created>1663151717520</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1663151717520</updated>
-    </task>
-    <task id="LOCAL-00005" summary="fixes 2.0">
-      <created>1663152637895</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1663152637895</updated>
-    </task>
-    <task id="LOCAL-00006" summary="fixes 3.0">
-      <created>1663152706489</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1663152706489</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added target branch">
-      <created>1663156051161</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1663156051161</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Fixed index.md">
-      <created>1663157456833</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1663157456833</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Added html-proofer">
-      <created>1663226353346</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1663226353346</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Fixed html-proofer">
-      <created>1663226523096</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1663226523096</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Fixed html-proofer 2.0">
-      <created>1663227276471</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1663227276471</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Fixed html-proofer 3.0">
-      <created>1663227866378</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1663227866378</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Added site">
-      <created>1663228214815</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1663228214815</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fixes gemfile">
-      <created>1663228686362</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1663228686362</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Fixed back">
-      <created>1663228978612</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1663228978612</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Fixed args">
-      <created>1663229628096</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1663229628096</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Fixed args 2.0">
-      <created>1663230015721</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230015721</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Fixed args 3.0">
-      <created>1663230132674</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230132674</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Fixed args 4.0">
-      <created>1663230226799</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230226799</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Fixed args 5.0">
-      <created>1663230475612</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230475612</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Fixed args 6.0">
-      <created>1663230657784</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230657784</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Fixed args 7.0">
-      <created>1663230737159</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1663230737159</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Fixed args 8.0">
-      <created>1663231333596</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1663231333596</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Fixed args 9.0">
-      <created>1663231475924</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1663231475924</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Fixed args 10.0">
-      <created>1663231686549</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1663231686549</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Fixed check html">
-      <created>1663231796659</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1663231796659</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Fixed check html 2.0">
-      <created>1663231908409</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1663231908409</updated>
+      <workItem from="1663225142518" duration="19755000" />
+      <workItem from="1663246152674" duration="281000" />
+      <workItem from="1663312777113" duration="3273000" />
     </task>
     <task id="LOCAL-00028" summary="Fixed check html 3.0">
       <created>1663232051878</created>
@@ -335,7 +153,245 @@
       <option name="project" value="LOCAL" />
       <updated>1663236836081</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="fixed">
+      <created>1663237137721</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663237137721</updated>
+    </task>
+    <task id="LOCAL-00044" summary="fixed 2.0">
+      <created>1663237875721</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663237875721</updated>
+    </task>
+    <task id="LOCAL-00045" summary="fixed 3.0">
+      <created>1663238449393</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238449393</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fixed 4.0">
+      <created>1663238512253</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238512253</updated>
+    </task>
+    <task id="LOCAL-00047" summary="fixed 5.0">
+      <created>1663238548940</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238548940</updated>
+    </task>
+    <task id="LOCAL-00048" summary="fixed 6.0">
+      <created>1663238656112</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238656112</updated>
+    </task>
+    <task id="LOCAL-00049" summary="fixed 7.0">
+      <created>1663238746346</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238746346</updated>
+    </task>
+    <task id="LOCAL-00050" summary="fixed 8.0">
+      <created>1663238828862</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1663238828862</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fixed 9.0">
+      <created>1663240205566</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1663240205566</updated>
+    </task>
+    <task id="LOCAL-00052" summary="fixed 10.0">
+      <created>1663240584471</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1663240584471</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix">
+      <created>1663241023549</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1663241023549</updated>
+    </task>
+    <task id="LOCAL-00054" summary="fix 2.0">
+      <created>1663241826784</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1663241826784</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix 3.0">
+      <created>1663241953878</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1663241953878</updated>
+    </task>
+    <task id="LOCAL-00056" summary="fix 4.0">
+      <created>1663242014253</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1663242014253</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix 5.0">
+      <created>1663243157815</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243157815</updated>
+    </task>
+    <task id="LOCAL-00058" summary="fix 6.0">
+      <created>1663243231034</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243231034</updated>
+    </task>
+    <task id="LOCAL-00059" summary="fix 7.0">
+      <created>1663243648487</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243648487</updated>
+    </task>
+    <task id="LOCAL-00060" summary="fix 8.0">
+      <created>1663243722237</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243722237</updated>
+    </task>
+    <task id="LOCAL-00061" summary="fix 9.0">
+      <created>1663243803924</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1663243803924</updated>
+    </task>
+    <task id="LOCAL-00062" summary="fix 10.0">
+      <created>1663244021518</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1663244021518</updated>
+    </task>
+    <task id="LOCAL-00063" summary="fix 11.0">
+      <created>1663244084393</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1663244084393</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix 12.0">
+      <created>1663244353237</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1663244353237</updated>
+    </task>
+    <task id="LOCAL-00065" summary="fix 13.0">
+      <created>1663244461971</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1663244461971</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix 14.0">
+      <created>1663245058721</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1663245058721</updated>
+    </task>
+    <task id="LOCAL-00067" summary="fix 15.0">
+      <created>1663245249440</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1663245249440</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix 16.0">
+      <created>1663246208081</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1663246208081</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix 17.0">
+      <created>1663246274268</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1663246274268</updated>
+    </task>
+    <task id="LOCAL-00070" summary="fix 18.0">
+      <created>1663313761846</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1663313761846</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix 19.0">
+      <created>1663313956424</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1663313956424</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix 20.0">
+      <created>1663314729753</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1663314729753</updated>
+    </task>
+    <task id="LOCAL-00073" summary="fix 21.0">
+      <created>1663315205409</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315205409</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fix 22.0">
+      <created>1663315367299</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315367299</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fix 23.0">
+      <created>1663315932190</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1663315932190</updated>
+    </task>
+    <task id="LOCAL-00076" summary="fix 24.0">
+      <created>1663316049924</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316049924</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,31 +410,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fixed args 3.0" />
-    <MESSAGE value="Fixed args 4.0" />
-    <MESSAGE value="Fixed args 5.0" />
-    <MESSAGE value="Fixed args 6.0" />
-    <MESSAGE value="Fixed args 7.0" />
-    <MESSAGE value="Fixed args 8.0" />
-    <MESSAGE value="Fixed args 9.0" />
-    <MESSAGE value="Fixed args 10.0" />
-    <MESSAGE value="Fixed check html" />
-    <MESSAGE value="Fixed check html 2.0" />
-    <MESSAGE value="Fixed check html 3.0" />
-    <MESSAGE value="Fixed check html 4.0" />
-    <MESSAGE value="Fixed check html 5.0" />
-    <MESSAGE value="Fixed check html 6.0" />
-    <MESSAGE value="Added new check" />
-    <MESSAGE value="Added new check 2.0" />
-    <MESSAGE value="Added new check 3.0" />
-    <MESSAGE value="Added new check 4.0" />
-    <MESSAGE value="Added new check 5.0" />
-    <MESSAGE value="Added new check again" />
-    <MESSAGE value="Added new check again 2.0" />
-    <MESSAGE value="Added new check again 3.0" />
-    <MESSAGE value="Fixed" />
-    <MESSAGE value="Fixed 2.0" />
-    <MESSAGE value="ADDED" />
-    <option name="LAST_COMMIT_MESSAGE" value="ADDED" />
+    <MESSAGE value="fixed 10.0" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix 2.0" />
+    <MESSAGE value="fix 3.0" />
+    <MESSAGE value="fix 4.0" />
+    <MESSAGE value="fix 5.0" />
+    <MESSAGE value="fix 6.0" />
+    <MESSAGE value="fix 7.0" />
+    <MESSAGE value="fix 8.0" />
+    <MESSAGE value="fix 9.0" />
+    <MESSAGE value="fix 10.0" />
+    <MESSAGE value="fix 11.0" />
+    <MESSAGE value="fix 12.0" />
+    <MESSAGE value="fix 13.0" />
+    <MESSAGE value="fix 14.0" />
+    <MESSAGE value="fix 15.0" />
+    <MESSAGE value="fix 16.0" />
+    <MESSAGE value="fix 17.0" />
+    <MESSAGE value="fix 18.0" />
+    <MESSAGE value="fix 19.0" />
+    <MESSAGE value="fix 20.0" />
+    <MESSAGE value="fix 21.0" />
+    <MESSAGE value="fix 22.0" />
+    <MESSAGE value="fix 23.0" />
+    <MESSAGE value="fix 24.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 24.0" />
   </component>
 </project>
