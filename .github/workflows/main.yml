@@ -41,4 +41,4 @@ jobs:
           key: ${{ runner.os }}-htmlproofer
 
       - name: Check HTML
-        run: bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
+        run: bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html || true
