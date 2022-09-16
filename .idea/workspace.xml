@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="fix 24.0">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="f9fc8923-b833-4729-982e-149999fa7700" name="Default Changelist" comment="fixes 3.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,42 +43,7 @@
       <workItem from="1663141432370" duration="8502000" />
       <workItem from="1663225142518" duration="19755000" />
       <workItem from="1663246152674" duration="281000" />
-      <workItem from="1663312777113" duration="3273000" />
-    </task>
-    <task id="LOCAL-00028" summary="Fixed check html 3.0">
-      <created>1663232051878</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1663232051878</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Fixed check html 4.0">
-      <created>1663232430971</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1663232430971</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Fixed check html 5.0">
-      <created>1663232543096</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1663232543096</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Fixed check html 6.0">
-      <created>1663232963878</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1663232963878</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Added new check">
-      <created>1663233183409</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1663233183409</updated>
+      <workItem from="1663312777113" duration="5267000" />
     </task>
     <task id="LOCAL-00033" summary="Added new check 2.0">
       <created>1663233249628</created>
@@ -391,7 +353,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663316049924</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="ADDED">
+      <created>1663316337550</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316337550</updated>
+    </task>
+    <task id="LOCAL-00078" summary="BACK">
+      <created>1663316518706</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1663316518706</updated>
+    </task>
+    <task id="LOCAL-00079" summary="fixes">
+      <created>1663318285549</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1663318285549</updated>
+    </task>
+    <task id="LOCAL-00080" summary="fixes 2.0">
+      <created>1663318486971</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1663318486971</updated>
+    </task>
+    <task id="LOCAL-00081" summary="fixes 3.0">
+      <created>1663319180190</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1663319180190</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,11 +407,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed 10.0" />
-    <MESSAGE value="fix" />
-    <MESSAGE value="fix 2.0" />
-    <MESSAGE value="fix 3.0" />
-    <MESSAGE value="fix 4.0" />
     <MESSAGE value="fix 5.0" />
     <MESSAGE value="fix 6.0" />
     <MESSAGE value="fix 7.0" />
@@ -435,6 +427,11 @@
     <MESSAGE value="fix 22.0" />
     <MESSAGE value="fix 23.0" />
     <MESSAGE value="fix 24.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix 24.0" />
+    <MESSAGE value="ADDED" />
+    <MESSAGE value="BACK" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="fixes 2.0" />
+    <MESSAGE value="fixes 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes 3.0" />
   </component>
 </project>
